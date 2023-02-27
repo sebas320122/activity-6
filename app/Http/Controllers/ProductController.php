@@ -7,20 +7,20 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
+    /*
+      Retornar view index.blade.php
      */
     public function index()
     {
-        //
+        return view('index');       
     }
 
-    /**
-     * Show the form for creating a new resource.
+    /*
+       Retornar view create.blade.php
      */
     public function create()
     {
-        //
+        return view('create');
     }
 
     /**
@@ -39,12 +39,12 @@ class ProductController extends Controller
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
+   /*
+      Retornar view edit.blade.php
      */
     public function edit(Product $product)
     {
-        //
+        return view('edit');
     }
 
     /**

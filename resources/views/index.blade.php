@@ -9,6 +9,8 @@
   <title>Product View</title> 
 </head> 
 <body> 
-  
+<form action="create">
+    <input type="submit" value="Add product" />
+  </form>
 </body> 
 </html> 
